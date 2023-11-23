@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Домашний ручной зоопарк</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
+</head>
+<body>
+    <h1>Домашний ручной зоопарк "Зверушка" приветсвует Вас!</h1>
+    <button id="toggleMenuBtn">Наши обитатели</button>
+    <div id="dropdownMenu" class="dropdown-content">
+        <a href="#">хомяк</a>
+        <a href="#">крыса</a>
+        <a href="#">кролик</a>
+        <a href="#">котик</a>
+        </div>
+    <p>Мы работаем каждый день с 12:00 до 17:00 и приглашаем каждого желающего посетить ручных питомцев</p>
+    
+    <div id="slider-container">
+        <div class="slide">
+            <img src="hamster.jpg" alt="хомяк">
+        </div>
+        <div class="slide">
+            <img src="rat.jpg" alt="крыса">
+        </div>
+        <div class="slide">
+            <img src="rabbit.jpg" alt="кролик">
+        </div>
+        <div class="slide">
+            <img src="cat.jpg" alt="котик">
+        </div>
+        <button id="prevBtn">назад</button>
+        <button id="nextBtn">вперёд</button>
+    </div>
+    
+    <form id="feedbackForm" action="#">
+        <label for="name">Ваше имя:</label>
+        <input type="name" id="name" name="name">
+
+        <label for="email">Ваш email:</label>
+        <input type="email" id="email" name="email">
+
+        <label for="message">Ваше сообщение:</label>
+        <input type="text" id="message" name="message">
+
+        <button type="submit">submit</button>
+    </form>
+</body>
+</html>

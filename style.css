@@ -1,0 +1,55 @@
+#dropdownMenu{
+    display: none;
+    position: absolute;
+    width: 100px;
+    text-align: center;
+    z-index: 1;
+}
+.dropdown-content a{
+    padding: 4px;
+    display: block;
+    text-decoration: none;
+    color: rgb(255, 196, 0);
+}
+.dropdown-content a:hover{
+    background-color: rgb(149, 193, 153)
+}
+#toggleMenuBtn{
+    width: 100px;
+}
+#slider-container{
+    position: relative;
+    overflow: hidden;
+    width: 500px;
+    height: 380px;
+}
+.slide{
+    position: absolute;
+    width: 100%;
+}
+.slide img{
+    width: 100%;
+    height: auto;
+}
+#slider-container button{
+    position: absolute;
+    top: 50%;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+#prevBtn{
+    left: 0;
+}
+#nextBtn{
+    right: 0;
+}
+#name{
+    width: 100px;
+}
+#message{
+    width: 300px;
+}
+a{
+    background: rgb(23, 82, 40);
+}
